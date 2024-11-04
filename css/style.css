@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Press Start 2P', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+.numero {
+  width: 10rem;
+  height: 10rem;
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+.mensagem {
+  font-size: 1.6rem;
+}
+
+.rotulo-pontuacao, .rotulo-recorde {
+  font-size: 1.8rem;
+}
+
+.palpite {
+  max-width: 15rem;
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Adivinhe o Número!</title>
+  </head>
+  <body class="bg-dark text-white">
+    <div class="container text-center py-5">
+      <header class="mb-4">
+        <h1 class="display-4">Adivinhe o Número!</h1>
+        <p class="entre">(Entre 1 e 20)</p>
+        <button class="btn btn-warning btn-lg novamente">Jogar Novamente!</button>
+        <div class="numero rounded-circle bg-white text-dark d-inline-flex align-items-center justify-content-center mt-3">?</div>
+      </header>
+      <main class="d-flex flex-column flex-md-row justify-content-around align-items-center">
+        <section class="esquerda text-center mb-4 mb-md-0">
+          <input type="number" class="palpite form-control form-control-lg mb-3" placeholder="Digite um número" />
+          <button class="btn btn-primary btn-lg verificar">Verificar!</button>
+        </section>
+        <section class="direita">
+          <p class="mensagem font-weight-bold">Comece a adivinhar...</p>
+          <p class="rotulo-pontuacao">💯 Pontuação: <span class="pontuacao">20</span></p>
+          <p class="rotulo-recorde">🥇 Recorde: <span class="recorde">0</span></p>
+        </section>
+      </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
